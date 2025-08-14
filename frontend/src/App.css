@@ -1,0 +1,71 @@
+/* General Layout */
+body {
+  background-color: #f9f9f9;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Main Button Style */
+.decentra-button {
+  background: linear-gradient(135deg, #6a5acd, #48c6ef);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.decentra-button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #5a4bb5, #3baed6);
+}
+
+.decentra-button:active {
+  transform: scale(0.97);
+}
+
+/* Small Action Buttons (like 👍 💬) */
+.action-button {
+  background: #f1f1f1;
+  border: none;
+  border-radius: 8px;
+  padding: 5px 10px;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.action-button:hover {
+  background: #ddd;
+}
+
+/* Textarea */
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  resize: none;
+}
+
+/* Section Styling */
+section {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
